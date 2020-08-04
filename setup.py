@@ -22,8 +22,8 @@ ext = Extension(
     extra_link_args=extra_link_args,
 )
 
-setup(name='python-lzo',
-      version='1.0',
-      description='This is a demo package',
-      py_modules=['lzo'],
+setup(name='python-lzop',
+      version='1.1',
+      description='lzo for filestreams module',
+      py_modules=['lzop'],
       ext_modules=[ext])
